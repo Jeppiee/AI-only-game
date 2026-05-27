@@ -50,3 +50,4 @@ Reset for next round
 
 🎮 Goal of the Project
 To build a complete, functional roulette game in Unity with all the mechanics you’d expect from a real casino table — wheel, ball, bets, payouts, and presentation.
+https://copilot.microsoft.com/shares/G5jXzTo8po3P9sY6e2wcW
