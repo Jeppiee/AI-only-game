@@ -20,12 +20,10 @@ public class WheelSpin : MonoBehaviour
 
             transform.Rotate(0, spinSpeed * Time.deltaTime, 0);
         }
-
-        // PRESS SPACE TO SPIN
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            StartSpin();
-        }
+    }
+    public void SpinButton()
+    {
+        StartSpin();
     }
 
     public void StartSpin()

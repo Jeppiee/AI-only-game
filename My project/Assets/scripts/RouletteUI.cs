@@ -20,6 +20,7 @@ public class RouletteUI : MonoBehaviour
         balanceText.text = "Balance: " + player.balance;
         betText.text = "Bet: " + player.currentBet;
         betNumberText.text = "Bet Number: " + player.betNumber;
+
     }
 
     public void ShowWinningNumber(int number)

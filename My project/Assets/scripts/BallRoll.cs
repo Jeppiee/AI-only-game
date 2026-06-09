@@ -2,18 +2,37 @@ using UnityEngine;
 
 public class BallRoll : MonoBehaviour
 {
-    public float force = 50f;
-    private Rigidbody rb;
+    Rigidbody rb;
+    Vector3 startPos;
+    Quaternion startRot;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rb.maxAngularVelocity = 100f;
+
+        startPos = transform.position;
+        startRot = transform.rotation;
+
+        FreezeBall();
     }
 
-    public void LaunchBall()
+    public void FreezeBall()
     {
-        // Push the ball forward around the wheel
-        rb.AddForce(transform.forward * force, ForceMode.Impulse);
+        rb.isKinematic = true;
+        rb.linearVelocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+    }
+
+    public void DropBall()
+    {
+        rb.isKinematic = false;
+    }
+
+    public void ResetBall()
+    {
+        transform.position = startPos;
+        transform.rotation = startRot;
+
+        FreezeBall();
     }
 }

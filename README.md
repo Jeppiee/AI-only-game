@@ -10,7 +10,7 @@ Smooth deceleration
 
 Accurate ball physics
 
-Ball rolls around the rim and falls into a numbered slot
+Ball falls into a numbered slot
 
 💵 Betting & Money System
 Player balance
@@ -19,23 +19,10 @@ Adjustable wager amounts
 
 Win/lose payouts based on real roulette rules
 
-Inside bets (straight, split, street, corner, six line)
-
-Outside bets (red/black, odd/even, high/low, dozens, columns)
+Outside bets (red/black and number bets)
 
 🃏 Full Roulette Table Layout
 Interactive table UI
-
-Click‑to‑place chips
-
-Clear bet indicators
-
-Bet history
-
-📸 Camera & Presentation
-Smooth zoom‑in during spin
-
-Cinematic reveal when the ball lands
 
 Clean 3D environment
 
@@ -51,3 +38,17 @@ Reset for next round
 🎮 Goal of the Project
 To build a complete, functional roulette game in Unity with all the mechanics you’d expect from a real casino table — wheel, ball, bets, payouts, and presentation.
 https://copilot.microsoft.com/shares/G5jXzTo8po3P9sY6e2wcW
+
+Reflectie:
+In het begin kwam ik er achter dat ik heel veel moest maken in het begin,
+waardoor ik het gevoel kreeg dat het niet optijd af ging.
+Ook in het begin had ik het probleem dat ik de AI liet zien wat fout was
+en gaf hij niet echt de goede oplossing.
+maar zodra het maken van alles klaar was, kon ik wel goed aan het project door werken.
+hierdoor ging alles ook veel makkelijker dan eerst.
+Naar mijn mening is het uiteidelijk wel goed gegaan en heb ik ook goed er aan kunnen werken.
+Wat ik beter had kunnen doen, was een project kiezen dat meer coderen was en minder bouwen. 
+voor de rest heb ik er veel van geleerd en vind daarom ook dat dit onderdeel goed is gelukt.
+
+
+
