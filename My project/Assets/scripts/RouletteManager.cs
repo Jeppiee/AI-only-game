@@ -23,6 +23,7 @@ public class RouletteManager : MonoBehaviour
     public void OnPocketHit(int number)
     {
         Debug.Log("WINNING NUMBER = " + number);
+        ui.ShowWinningNumber(number);
 
         // Number bet
         if (player.betType == PlayerMoney.BetType.Number)

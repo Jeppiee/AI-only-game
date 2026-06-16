@@ -1,5 +1,6 @@
-using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
+using UnityEngine;
 
 public class RouletteUI : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class RouletteUI : MonoBehaviour
         balanceText.text = "Balance: " + player.balance;
         betText.text = "Bet: " + player.currentBet;
         betNumberText.text = "Bet Number: " + player.betNumber;
+     
 
     }
 
